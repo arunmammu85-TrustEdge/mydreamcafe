@@ -212,12 +212,12 @@
   }
   .venue-card h3{font-size:1.25rem; color:var(--gold-bright); margin-bottom:12px; position: relative; z-index: 2;}
   .venue-card p{font-size:0.92rem; line-height:1.65; color:rgba(246,236,214,0.85); position: relative; z-index: 2;}
-  .venue-card#card-cafe { background: linear-gradient(165deg, rgba(12,8,6,0.75), rgba(12,8,6,0.95)), url('cafe_bg.png') center/cover no-repeat; }
-  .venue-card#card-theater { background: linear-gradient(165deg, rgba(12,8,6,0.75), rgba(12,8,6,0.95)), url('theater_bg.png') center/cover no-repeat; }
-  .venue-card#card-hall { background: linear-gradient(165deg, rgba(12,8,6,0.75), rgba(12,8,6,0.95)), url('hall_bg.png') center/cover no-repeat; }
-  .venue-card#card-cafe:hover { background: linear-gradient(165deg, rgba(12,8,6,0.6), rgba(12,8,6,0.8)), url('cafe_bg.png') center/cover no-repeat; transform:translateY(-6px); border-color:var(--gold); }
-  .venue-card#card-theater:hover { background: linear-gradient(165deg, rgba(12,8,6,0.6), rgba(12,8,6,0.8)), url('theater_bg.png') center/cover no-repeat; transform:translateY(-6px); border-color:var(--gold); }
-  .venue-card#card-hall:hover { background: linear-gradient(165deg, rgba(12,8,6,0.6), rgba(12,8,6,0.8)), url('hall_bg.png') center/cover no-repeat; transform:translateY(-6px); border-color:var(--gold); }
+  .venue-card#card-cafe { background: linear-gradient(165deg, rgba(12,8,6,0.45), rgba(12,8,6,0.75)), url('cafe_bg.png') center/cover no-repeat; }
+  .venue-card#card-theater { background: linear-gradient(165deg, rgba(12,8,6,0.45), rgba(12,8,6,0.75)), url('theater_bg.png') center/cover no-repeat; }
+  .venue-card#card-hall { background: linear-gradient(165deg, rgba(12,8,6,0.45), rgba(12,8,6,0.75)), url('hall_bg.png') center/cover no-repeat; }
+  .venue-card#card-cafe:hover { background: linear-gradient(165deg, rgba(12,8,6,0.25), rgba(12,8,6,0.6)), url('cafe_bg.png') center/cover no-repeat; transform:translateY(-6px); border-color:var(--gold); }
+  .venue-card#card-theater:hover { background: linear-gradient(165deg, rgba(12,8,6,0.25), rgba(12,8,6,0.6)), url('theater_bg.png') center/cover no-repeat; transform:translateY(-6px); border-color:var(--gold); }
+  .venue-card#card-hall:hover { background: linear-gradient(165deg, rgba(12,8,6,0.25), rgba(12,8,6,0.6)), url('hall_bg.png') center/cover no-repeat; transform:translateY(-6px); border-color:var(--gold); }
   @media (max-width:900px){.venue-grid{grid-template-columns:1fr;}}
 
   .food-band{
@@ -231,7 +231,7 @@
     font-family:'Space Mono',monospace; color:var(--gold-bright);
   }
   .food-visual{
-    aspect-ratio:1/1; border-radius:50%; overflow:hidden; border:6px solid var(--espresso);
+    width: 100%; aspect-ratio:1/1; border-radius:50%; overflow:hidden; border:6px solid var(--espresso);
     outline:2px solid var(--gold); box-shadow:var(--shadow); position:relative;
   }
   .food-visual img { width: 100%; height: 100%; object-fit: cover; position: absolute; top: 0; left: 0; opacity: 0; animation: foodFade 16s infinite ease-in-out; }
